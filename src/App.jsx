@@ -12,7 +12,7 @@ function App() {
       setTime(new Date());
     }, 1000);
 
-    // Cleanup the interval when the component unmounts
+    
     return () => clearInterval(timer);
   }, []);
 
@@ -20,7 +20,7 @@ function App() {
     <div className="clock-container">
       <h1 className="clock-title">Productivity Dashboard</h1>
       <div className="clock-card">
-        {/* 3. Use date-fns to format the date and time */}
+    
         <p className="clock-display">
           {format(time, 'eeee, MMMM do, yyyy | hh:mm:ss a')}
         </p>

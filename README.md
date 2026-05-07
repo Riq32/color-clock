@@ -46,7 +46,7 @@ dynamic-clock/
 
 ```bash
 # Clone or download the project, then navigate into it
-cd dynamic-clock
+cd color-clock
 
 # Install dependencies
 npm install
@@ -141,11 +141,12 @@ import { format } from "date-fns";
 **Change the theme** — All colours are defined as CSS variables at the top of `App.css`:
 
 ```css
-:root {
-  --bg: #0a0a0f;
-  --accent: #00ffe0;   /* cyan glow */
-  --accent2: #ff3e8a;  /* pink pulse dot */
-  --text-primary: #e8f0ff;
+.clock-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  color: white;
 }
 ```
 
