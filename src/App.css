@@ -1,0 +1,35 @@
+/* App.css */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+  margin: 0;
+}
+
+.clock-container {
+  text-align: center;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.clock-title {
+  color: #4a5568;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.clock-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.clock-display {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0;
+}
